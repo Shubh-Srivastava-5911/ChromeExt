@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    display: flex;
+    border: solid 1px lightgray;
+    width: 300px;
+    height: 20vh;
+}
+
+#left-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    width: 30%;
+    padding: 5%;
+}
+
+#right-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    width: 70%;
+    padding: 5%;
+}
+
+#output {
+    border: solid 1px lightgrey;
+    text-align: center;
+}
+
+#digits {
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px lightgray;
+    height: 5vh;
+}
